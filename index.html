@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang  = "es-ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCRIPTADOR ALURA ONE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header_logo">
+            <img class = "logo" src="./assets/Logo.png" alt="Logo de Alura">
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="sector1">
+                <textarea class="texto" placeholder = "Ingrese el texto aqui" ></textarea>
+                <div class="sector1__footer">
+                    <img src="./assets/signoexclamacion.png" alt="signoexclamativo">
+                    <spam class="sector1__info">Solo letras minúsculas y sin acentos.</spam>
+                    <div class= "sector1__botones">
+                        <button class="boton__encriptar">Encriptar</button>
+                        <button class="boton__desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sector2 ajustar">
+                <img class="muneco"src="./assets/muneco.png" alt="persona sentada">
+                    <textarea class="msj ajustar" placeholder = "Ningun mensaje fue encontrado"></textarea>
+                    <p class="msj__info"> Ingresa el texto que quieres encriptar o desencriptar.</p>
+                <button class="boton__copiar hidden">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>.</p>
+    </footer>
+</body>
+    <script src="app.js"></script>
+</html>
